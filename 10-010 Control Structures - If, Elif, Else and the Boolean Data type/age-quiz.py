@@ -2,10 +2,11 @@ import os
 os.system('cls' if os.name == 'nt' else 'clear')
 
 #define a variable to input age
-# use elimination of condition starting from the furthest to avoid overlap
+# use conditional if else statements
 
 age=int(input("enter your age: "))
 
+# using if and else to print relevant statement.
 if age>100:
     print("Sorry,You are dead.")
 elif age>=65:
